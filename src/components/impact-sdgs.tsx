@@ -44,17 +44,22 @@ const ImpactSDGs = () => {
           </p>
         </div>
         
-        {/* SDG Anchor */}
+        {/* Primary SDG */}
         <div className="text-center mb-16">
-          <div className="inline-block bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
-            <div className="flex items-center justify-center gap-6 mb-4">
-              <img src={sdg8} alt="SDG 8" className="w-20 h-20 rounded-xl" />
-              <div className="text-left">
-                <h3 className="text-3xl font-bold text-accent mb-2">
-                  Primary Focus: SDG 8
+          <div className="inline-block bg-white/15 backdrop-blur-sm rounded-3xl p-12 border-2 border-accent/50 shadow-glow">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="relative">
+                <img src={sdg8} alt="SDG 8 - Decent Work and Economic Growth" className="w-32 h-32 rounded-2xl shadow-elegant" />
+                <div className="absolute -top-2 -right-2 bg-accent text-white px-3 py-1 rounded-full text-sm font-bold">
+                  PRIMARY
+                </div>
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-4xl font-bold text-accent mb-3">
+                  SDG 8: Our Core Mission
                 </h3>
-                <p className="text-lg opacity-90">
-                  Decent Work & Economic Growth
+                <p className="text-xl opacity-90 max-w-md">
+                  Decent Work & Economic Growth - Transforming the workforce ecosystem across Egypt and Africa
                 </p>
               </div>
             </div>
