@@ -8,7 +8,8 @@ import sdg16 from "@/assets/sdg-16.jpg";
 import sdg17 from "@/assets/sdg-17.jpg";
 
 const ImpactSDGs = () => {
-  const supportingSDGs = [
+  const allSDGs = [
+    { name: "Decent Work & Economic Growth", image: sdg8, isPrimary: true },
     { name: "Good Health & Well-being", image: sdg3 },
     { name: "Quality Education", image: sdg4 },
     { name: "Gender Equality", image: sdg5 },
@@ -44,33 +45,11 @@ const ImpactSDGs = () => {
           </p>
         </div>
         
-        {/* Primary SDG */}
-        <div className="text-center mb-16">
-          <div className="inline-block bg-white/15 backdrop-blur-sm rounded-3xl p-12 border-2 border-accent/50 shadow-glow">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-              <div className="relative">
-                <img src={sdg8} alt="SDG 8 - Decent Work and Economic Growth" className="w-32 h-32 rounded-2xl shadow-elegant" />
-                <div className="absolute -top-2 -right-2 bg-accent text-white px-3 py-1 rounded-full text-sm font-bold">
-                  PRIMARY
-                </div>
-              </div>
-              <div className="text-center md:text-left">
-                <h3 className="text-4xl font-bold text-accent mb-3">
-                  SDG 8: Our Core Mission
-                </h3>
-                <p className="text-xl opacity-90 max-w-md">
-                  Decent Work & Economic Growth - Transforming the workforce ecosystem across Egypt and Africa
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        {/* Other SDGs */}
+        {/* All SDGs */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-center mb-8">Supporting SDGs</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {supportingSDGs.map((sdg, index) => (
+          <h3 className="text-2xl font-bold text-center mb-8">UN Sustainable Development Goals</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
+            {allSDGs.map((sdg, index) => (
               <div key={index} className="text-center group">
                 <div className="mb-3 transform group-hover:scale-105 transition-transform duration-300">
                   <img 
@@ -79,7 +58,7 @@ const ImpactSDGs = () => {
                     className="w-20 h-20 rounded-xl mx-auto shadow-lg"
                   />
                 </div>
-                <p className="text-sm font-medium opacity-90 text-slate-50">
+                <p className="text-xs font-medium opacity-90 text-slate-50">
                   {sdg.name}
                 </p>
               </div>
