@@ -1,6 +1,21 @@
 import { TrendingUp, Users, Clock, DollarSign } from "lucide-react";
+import sdg3 from "@/assets/sdg-3.jpg";
+import sdg4 from "@/assets/sdg-4.jpg";
+import sdg5 from "@/assets/sdg-5.jpg";
+import sdg8 from "@/assets/sdg-8.jpg";
+import sdg9 from "@/assets/sdg-9.jpg";
+import sdg16 from "@/assets/sdg-16.jpg";
+import sdg17 from "@/assets/sdg-17.jpg";
+
 const ImpactSDGs = () => {
-  const sdgHighlights = ["SDG 8: Decent Work & Economic Growth", "SDG 3: Good Health & Well-being", "SDG 4: Quality Education", "SDG 5: Gender Equality", "SDG 9: Industry, Innovation & Infrastructure", "SDG 10: Reduced Inequalities", "SDG 16: Peace, Justice & Strong Institutions", "SDG 17: Partnerships for Goals"];
+  const supportingSDGs = [
+    { name: "Good Health & Well-being", image: sdg3 },
+    { name: "Quality Education", image: sdg4 },
+    { name: "Gender Equality", image: sdg5 },
+    { name: "Industry, Innovation & Infrastructure", image: sdg9 },
+    { name: "Peace, Justice & Strong Institutions", image: sdg16 },
+    { name: "Partnerships for the Goals", image: sdg17 }
+  ];
   const kpis = [{
     icon: Users,
     title: "Jobs Created",
@@ -32,22 +47,38 @@ const ImpactSDGs = () => {
         {/* SDG Anchor */}
         <div className="text-center mb-16">
           <div className="inline-block bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
-            <h3 className="text-3xl font-bold text-accent mb-4">
-              🎯 Primary Focus: SDG 8
-            </h3>
-            <p className="text-lg opacity-90">
-              Decent Work & Economic Growth - Our core mission
-            </p>
+            <div className="flex items-center justify-center gap-6 mb-4">
+              <img src={sdg8} alt="SDG 8" className="w-20 h-20 rounded-xl" />
+              <div className="text-left">
+                <h3 className="text-3xl font-bold text-accent mb-2">
+                  Primary Focus: SDG 8
+                </h3>
+                <p className="text-lg opacity-90">
+                  Decent Work & Economic Growth
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         
         {/* Other SDGs */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-center mb-8">Supporting SDGs</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {sdgHighlights.slice(1).map((sdg, index) => <div key={index} className="text-center p-4 bg-white/5 rounded-xl border border-white/10">
-                <p className="text-sm font-medium opacity-90 text-slate-50">{sdg}</p>
-              </div>)}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+            {supportingSDGs.map((sdg, index) => (
+              <div key={index} className="text-center group">
+                <div className="mb-3 transform group-hover:scale-105 transition-transform duration-300">
+                  <img 
+                    src={sdg.image} 
+                    alt={sdg.name}
+                    className="w-20 h-20 rounded-xl mx-auto shadow-lg"
+                  />
+                </div>
+                <p className="text-sm font-medium opacity-90 text-slate-50">
+                  {sdg.name}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
         
