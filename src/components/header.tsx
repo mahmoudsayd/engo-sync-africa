@@ -8,7 +8,7 @@ const Header = () => {
           <img 
             src={engoLogo} 
             alt="ENGO Misr - AI-powered workforce technology platform" 
-            className="h-14 md:h-16 lg:h-18 w-auto object-contain"
+            className="h-18 md:h-20 lg:h-22 w-auto object-contain"
           />
         </div>
       </div>
