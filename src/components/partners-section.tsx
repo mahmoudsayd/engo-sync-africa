@@ -59,9 +59,9 @@ const PartnersSection = () => {
   return <section className="py-16 bg-muted/20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Award-Winning As a Global Digital Economy Solution 2025 by UNIDO
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Accelerators & Partners
+
+Backed by leading global technology and investment partners</h2>
         </div>
         
         <div className="overflow-hidden" ref={emblaRef}>
