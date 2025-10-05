@@ -14,17 +14,17 @@ const InnovationSection = () => {
     },
     {
       icon: CreditCard,
-      title: "FinTech Rails",
+      title: "Fintech Solutions",
       description: "Collections, payouts, wallets, and payment processing"
     },
     {
       icon: Heart,
-      title: "InsureTech Workflows",
+      title: "InsurTech Platform",
       description: "Streamlined claims processing and audit automation"
     },
     {
       icon: GraduationCap,
-      title: "EduTech Engine",
+      title: "Edutech Systems",
       description: "Certified learning paths and skills development"
     },
     {

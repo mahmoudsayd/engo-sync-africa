@@ -16,30 +16,13 @@ const FinalCTA = () => {
             we're building the future of work together.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="hero" size="lg" className="text-lg px-10 py-4">
-              <Calendar className="w-5 h-5 mr-2" />
-              Book a Demo
+          <div className="flex justify-center">
+            <Button variant="hero" size="lg" className="text-lg px-10 py-4" asChild>
+              <a href="mailto:info@engomisr.com">
+                <Calendar className="w-5 h-5 mr-2" />
+                Book a Demo
+              </a>
             </Button>
-            <Button variant="outline-hero" size="lg" className="text-lg px-10 py-4">
-              Contact Us
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-          </div>
-          
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-accent mb-2">1.3M+</div>
-              <div className="opacity-80">Users Served</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-accent mb-2">3.4M+</div>
-              <div className="opacity-80">Transactions</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-accent mb-2">1.5B</div>
-              <div className="opacity-80">EGP GMV</div>
-            </div>
           </div>
         </div>
       </div>

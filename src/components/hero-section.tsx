@@ -22,11 +22,11 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Get in Touch
+            <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+              <a href="mailto:info@engomisr.com">Get in Touch</a>
             </Button>
-            <Button variant="outline-hero" size="lg" className="text-lg px-8 py-4">
-              Explore Products
+            <Button variant="outline-hero" size="lg" className="text-lg px-8 py-4" asChild>
+              <a href="#products">Explore Products</a>
             </Button>
           </div>
         </div>

@@ -13,9 +13,7 @@ const StatsSection = () => {
             Empowering the Work Ecosystem
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We empower the entire work ecosystem—from Labor Ministries and unions to SMEs and workers—through 
-            <span className="text-primary font-semibold"> Neqabty (B2B)</span> and 
-            <span className="text-secondary font-semibold"> Workbook (B2C)</span>.
+            and here is our impact in figures
           </p>
         </div>
         

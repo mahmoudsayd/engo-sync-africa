@@ -68,7 +68,7 @@ const ImpactSDGs = () => {
         
         {/* KPIs */}
         <div>
-          <h3 className="text-2xl font-bold text-center mb-8">Key Performance Indicators</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Environmental, Social and Governance (ESG) Impact</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {kpis.map((kpi, index) => <div key={index} className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20">
                 <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center mx-auto mb-4">

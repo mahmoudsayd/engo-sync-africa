@@ -46,11 +46,8 @@ const PartnersSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Accelerators & Partners
+            Award-Winning As a Global Digital Economy Solution 2025 by UNIDO
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Backed by leading global technology and investment partners
-          </p>
         </div>
         
         <div className="overflow-hidden" ref={emblaRef}>
