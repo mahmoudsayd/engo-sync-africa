@@ -13,7 +13,7 @@ const StatsSection = () => {
             Empowering the Work Ecosystem
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            and here is our impact in figures
+            We empower the entire work ecosystem—from Labor Ministries and unions to SMEs and workers— and here is our impact in figures
           </p>
         </div>
         
