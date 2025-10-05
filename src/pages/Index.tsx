@@ -6,7 +6,7 @@ import ProductsSection from "@/components/products-section";
 import InnovationSection from "@/components/innovation-section";
 import ImpactSDGs from "@/components/impact-sdgs";
 import PartnersSection from "@/components/partners-section";
-import BusinessModel from "@/components/business-model";
+
 import FinalCTA from "@/components/final-cta";
 import Footer from "@/components/footer";
 
@@ -21,7 +21,6 @@ const Index = () => {
       <InnovationSection />
       <ImpactSDGs />
       <PartnersSection />
-      <BusinessModel />
       <FinalCTA />
       <Footer />
     </main>

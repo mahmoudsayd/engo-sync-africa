@@ -1,5 +1,7 @@
-import { Building2, User, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import neqabtyLogo from "@/assets/neqabty-logo.jpg";
+import workbookLogo from "@/assets/workbook-logo.jpg";
 
 const ProductsSection = () => {
   return (
@@ -18,8 +20,8 @@ const ProductsSection = () => {
           {/* Neqabty B2B */}
           <div className="bg-white rounded-3xl p-8 shadow-card hover:shadow-elegant transition-all duration-300">
             <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mr-4">
-                <Building2 className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 rounded-2xl overflow-hidden mr-4 flex-shrink-0">
+                <img src={neqabtyLogo} alt="Neqabty" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-primary">Neqabty</h3>
@@ -58,8 +60,8 @@ const ProductsSection = () => {
           {/* Workbook B2C */}
           <div className="bg-white rounded-3xl p-8 shadow-card hover:shadow-elegant transition-all duration-300">
             <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mr-4">
-                <User className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 rounded-2xl overflow-hidden mr-4 flex-shrink-0">
+                <img src={workbookLogo} alt="Workbook" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-primary">Workbook</h3>

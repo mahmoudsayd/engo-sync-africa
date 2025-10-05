@@ -10,6 +10,7 @@ import nilepreneursLogo from "@/assets/partners/nilepreneurs.png";
 import nvidiaLogo from "@/assets/partners/nvidia.png";
 import plugandplayLogo from "@/assets/partners/plugandplay.jpg";
 import seedstarsLogo from "@/assets/partners/seedstars.png";
+import fiveHundredGlobalLogo from "@/assets/partners/500-global.png";
 const PartnersSection = () => {
   const partners = [{
     name: "Microsoft",
@@ -41,6 +42,9 @@ const PartnersSection = () => {
   }, {
     name: "Seedstars",
     logo: seedstarsLogo
+  }, {
+    name: "500 Global",
+    logo: fiveHundredGlobalLogo
   }];
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
