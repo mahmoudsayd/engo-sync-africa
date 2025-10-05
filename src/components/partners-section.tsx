@@ -59,8 +59,12 @@ const PartnersSection = () => {
   return <section className="py-16 bg-muted/20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl text-primary mb-4 font-bold">Accelerators & Partners 
-Backed by leading global technology and investment partners</h2>
+          <h2 className="text-3xl md:text-4xl text-primary mb-2">
+            <span className="font-bold">Accelerators & Partners</span>
+          </h2>
+          <p className="text-lg text-muted-foreground">
+            Backed by leading global technology and investment partners
+          </p>
         </div>
         
         <div className="overflow-hidden" ref={emblaRef}>
