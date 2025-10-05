@@ -59,8 +59,7 @@ const PartnersSection = () => {
   return <section className="py-16 bg-muted/20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Accelerators & Partners
-
+          <h2 className="text-3xl md:text-4xl text-primary mb-4 font-bold">Accelerators & Partners 
 Backed by leading global technology and investment partners</h2>
         </div>
         
