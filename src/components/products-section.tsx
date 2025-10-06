@@ -1,6 +1,6 @@
 import { ArrowRight, Apple } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import neqabtyLogo from "@/assets/neqabty-logo.jpg";
+import neqabtyLogo from "@/assets/neqabty-logo.png";
 import workbookLogo from "@/assets/workbook-logo.jpg";
 
 const ProductsSection = () => {
