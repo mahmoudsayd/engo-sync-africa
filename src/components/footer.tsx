@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2 text-white/80 text-sm">
-              <li>Location: Egypt, Giza, Dokki, 54 Mohie eldin abo elezz</li>
+              <li>Location: <a href="https://maps.app.goo.gl/j5JQYMY1zT3uD41k6?g_st=awb" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Egypt, Giza, Dokki, 54 Mohie eldin abo elezz</a></li>
               <li>Email: <a href="mailto:info@engomisr.com" className="hover:text-white transition-colors">info@engomisr.com</a></li>
               <li>Website: <a href="https://www.engomisr.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">www.engomisr.com</a></li>
               <li>Whatsapp: <a href="https://wa.me/201103759121" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">01103759121</a></li>
