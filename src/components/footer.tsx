@@ -26,7 +26,7 @@ const Footer = () => {
             </ul>
             <div className="rounded-lg overflow-hidden border border-white/20">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.2895247154234!2d31.212628!3d30.038611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841d4b3e3e3e3%3A0x1234567890abcdef!2s54%20Mohie%20eldin%20abo%20elezz%2C%20Dokki%2C%20Giza!5e0!3m2!1sen!2seg!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7!2d31.2091!3d30.0384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzE4LjIiTiAzMcKwMTInMzIuOCJF!5e0!3m2!1sen!2seg!4v1234567890123!5m2!1sen!2seg&markers=color:red%7C30.0384,31.2091"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
