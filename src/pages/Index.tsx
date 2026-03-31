@@ -3,7 +3,7 @@ import HeroSection from "@/components/hero-section";
 import StatsSection from "@/components/stats-section";
 import VisionMission from "@/components/vision-mission";
 import ProductsSection from "@/components/products-section";
-import PensionSection from "@/components/pension-section";
+
 import InnovationSection from "@/components/innovation-section";
 import ImpactSDGs from "@/components/impact-sdgs";
 import PartnersSection from "@/components/partners-section";
