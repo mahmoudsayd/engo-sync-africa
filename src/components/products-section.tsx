@@ -125,11 +125,11 @@ const ProductsSection = () => {
             </div>
             
             <p className="text-lg text-foreground mb-6">
-              Association management system for ministries, unions, federations, and chambers.
+              Digital platform for ministries, unions, federations, and chambers.
             </p>
             
             <ul className="space-y-3 mb-8">
-              {["Membership Management", "Payment Processing & APIs", "Compliance & Reporting"].map((item, i) => (
+              {["Association Management System", "Membership Management", "Payment Processing & APIs", "Compliance & Reporting"].map((item, i) => (
                 <li key={i} className="flex items-center text-muted-foreground">
                   <ArrowRight className="w-4 h-4 text-primary mr-3 flex-shrink-0" />
                   {item}
