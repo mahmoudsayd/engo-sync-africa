@@ -5,9 +5,9 @@ const StatsSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const stats = [
-    { number: "1.3M+", label: "Active Users", description: "Professionals across Egypt & Africa" },
+    { number: "3.4M+", label: "Active Users", description: "Professionals across Egypt & Africa" },
     { number: "3.4M+", label: "Transactions", description: "Digital payments processed" },
-    { number: "1.5B", label: "EGP GMV", description: "Gross merchandise value" }
+    { number: "5B", label: "EGP GMV", description: "Gross merchandise value" }
   ];
 
   useEffect(() => {
