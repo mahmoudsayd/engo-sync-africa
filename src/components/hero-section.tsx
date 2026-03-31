@@ -31,7 +31,7 @@ const HeroSection = () => {
           
           <p className="text-xl md:text-2xl mb-10 leading-relaxed opacity-0 animate-fade-in-up max-w-3xl mx-auto" style={{ animationDelay: '0.2s' }}>
             ENGO Misr powers ministries, unions, federations, and professionals with AI-native platforms, 
-            already serving <span className="text-accent font-semibold">1.3M+ users</span>.
+            already serving <span className="text-accent font-semibold">2.6M+ users</span>.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
